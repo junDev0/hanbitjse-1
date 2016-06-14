@@ -12,12 +12,14 @@ package loop;
 public class ForLoopEx3 {
 	public static void main(String[] args) {
 		int i=0,oddSum=0,evenSum=0;
-		for (i = 0; i < 10; i++) {
-			if (condition) {
-				
+		for (i = 1; i <= 10; i++) {
+			if (i%2!=0) {
+				oddSum += i;
 			}else{
-				
+				evenSum += i;
 			}
 		}
+		System.out.printf("홀합=%d",oddSum);
+		System.out.printf("짝합=%d",evenSum);
 	}
 }

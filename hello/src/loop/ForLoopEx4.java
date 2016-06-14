@@ -12,6 +12,12 @@ package loop;
 */
 public class ForLoopEx4 {
 	public static void main(String[] args) {
-		
+		int i=0,sum=0;
+		for (i = 1; i <= 10; i++) {
+			if (i%3!=0) {
+				sum += i;
+			}
+		}
+		System.out.printf("합=%d",sum);
 	}
 }
