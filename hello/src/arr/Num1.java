@@ -3,6 +3,8 @@
  */
 package arr;
 
+import java.util.Scanner;
+
 /**
  * @date   :2016. 6. 14. 
  * @author :pakjkwan@gmail.com
@@ -17,7 +19,15 @@ public class Num1 {
 	 * 로직을 작성하시오
 	 * */
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int count=0,max=0,min=100;
+		System.out.println("학생수?");
+		count = scanner.nextInt();
+		int[] score = new int[count];
 		
+		for (int i = 0; i < count; i++) {
+			
+		}
 	}
 	
 }
