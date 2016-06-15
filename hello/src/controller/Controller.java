@@ -19,7 +19,16 @@ public class Controller {
 		Scanner s = new Scanner(System.in);
 		Calc calc = new Calc();
 		while (true) {
-			menu = JOptionPane.showInputDialog("1.계산기 2.카우푸 3.년월말 0.종료");
+			menu = JOptionPane.showInputDialog("1.계산기 "
+					+ "2.카우푸 "
+					+ "3.년월말 "
+					+ "4.1등구하기"
+					+ "5.학번/나이"
+					+ "6.최고최저점수"
+					+ "7.세금액"
+					+ "8.성별판별"
+					+ "9.시분초구하기"
+					+ "0.종료");
 			switch (menu) {
 			case "1":
 				System.out.print("첫번째숫자 : ");
